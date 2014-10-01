@@ -37,6 +37,12 @@ build which can be achieved by the following command sequence:
   - cmake ../src
   - make -j<number-of-cores+1>
 
+Note: The DistributedTracker package requires an OpenCV version >= 2.4.2. Therefore, if the
+requirements are not satisfied under your Linux distribution, you have to:
+
+  - download OpenCV (http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.9/opencv-2.4.9.zip/download)
+  - compile and install the OpenCV library, following the tutorial
+
 # Usage
 
 To execute DistributedTracker just type in to a terminal the following command sequence:
