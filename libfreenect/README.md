@@ -18,7 +18,7 @@ following packages:
   - libusb-dev
   - libusb-1.0-0-dev
 
-# Compilation
+# How to build
 
 The only development platform is Linux. We recommend a so-called out of source
 build which can be achieved by the following command sequence:
